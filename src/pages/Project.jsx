@@ -11,7 +11,7 @@ const ProjectDetail = () => {
   useEffect(() => {
     const fetchProject = async () => {
       try {
-        const res = await axios.get(`http://localhost:5000/api/projects/${id}`);
+        const res = await axios.get(`https://project1-backend-vn8m.onrender.com/api/projects/${id}`);
         setProject(res.data.project);
       } catch (err) {
         console.error("Error fetching project:", err);
