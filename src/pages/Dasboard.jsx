@@ -41,7 +41,7 @@ const Dashboard = () => {
 
   // Live Location Sharing
   const startSharing = async () => {
-    const res = await fetch("http://localhost:5000/api/live-location/share", {
+    const res = await fetch("https://project1-backend-vn8m.onrender.com/api/live-location/share", {
       method: "POST",
       headers: { "Content-Type": "application/json", Authorization: `Bearer ${token}` }, // include token if backend protects it
     });
