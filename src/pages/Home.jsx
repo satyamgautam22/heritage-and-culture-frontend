@@ -6,7 +6,7 @@ import Hero from "../component/Hero.jsx";
 import { Link } from "react-router-dom";
 
 
-axios.defaults.baseURL = "http://localhost:5000/api";
+axios.defaults.baseURL = "https://project1-backend-vn8m.onrender.com/api";
 
 const sectionVariants = {
   hidden: { opacity: 0, y: 50 },
